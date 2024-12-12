@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background-color: #2B4162;
+    color: #F5F0F6;
+}
+
+button {
+    background-color: #385F71;
+}
+
+a{
+    text-decoration: none;
+    color: #F5F0F6;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    margin-left: auto;
+    list-style-position: inside;
+    padding: 0;
+}

@@ -15,7 +15,7 @@ class CategoryController extends Controller
     {
         $data = $request->validate(
             [
-                'name' => 'required|string',
+                'name' => 'required|string|unique:categories,name',
             ]
         );
 
@@ -33,7 +33,7 @@ class CategoryController extends Controller
     {
         $data = $request->validate(
             [
-                'name' => 'required|string',
+                'name' => 'required|string|unique:categories,name',
             ]
         );
 
